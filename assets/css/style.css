@@ -60,8 +60,8 @@ h1,h2,h3,h4{font-family:var(--display);font-weight:700;letter-spacing:-.02em;tex
 .nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:1.3rem 0;transition:padding .4s var(--ease),background .4s var(--ease);will-change:padding,background}
 .nav.on{background:rgba(12,11,16,.96);padding:.8rem 0;border-bottom:1px solid var(--border)}
 .nav-inner{max-width:1200px;margin:0 auto;padding:0 2rem;display:flex;align-items:center;justify-content:space-between}
-.nav-logo{font-family:var(--display);font-size:1.4rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;display:flex;align-items:center;gap:.5rem}
-.nav-logo .mk{width:32px;height:32px;background:var(--coral);display:flex;align-items:center;justify-content:center;font-family:var(--sans);font-weight:800;font-size:.7rem;color:var(--white)}
+.nav-logo{font-family:var(--display);font-size:1.4rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;display:flex;align-items:center;gap:0}
+.nav-logo .mk{width:32px;height:32px;background:var(--coral);display:flex;align-items:center;justify-content:center;font-family:var(--sans);font-weight:800;font-size:.7rem;color:var(--white);margin-right:2px}
 .nav-links{display:flex;align-items:center;gap:2.2rem}
 .nav-links a{font-size:.85rem;font-weight:500;color:var(--muted);transition:color .2s;text-transform:uppercase;letter-spacing:.05em}
 .nav-links a.active,.nav-links a:hover{color:var(--white)}
